@@ -1,0 +1,14 @@
+.venv/
+.env
+
+chroma_db/
+extracted_images/
+
+__pycache__/
+*.pyc
+
+data/
+
+*.sqlite3
+*.bin
+*.pkl
