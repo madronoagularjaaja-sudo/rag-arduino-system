@@ -179,6 +179,7 @@ Windows:
 
 ## 4. Instalar dependencias
 
+Puede tardar unos minutos ya que son varias dependencias.
 ```bash
 pip install -r requirements.txt
 ```
