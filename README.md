@@ -151,7 +151,7 @@ Debido a que algunos PDFs contienen múltiples diagramas por página, el sistema
 ## 1. Clonar repositorio
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/madronoagularjaaja-sudo/rag-arduino-system.git
 ```
 
 ## 2. Entrar al proyecto
@@ -162,6 +162,7 @@ cd rag-arduino-system
 
 ## 3. Crear entorno virtual
 
+Recordar tener Python instalado
 ```bash
 python -m venv .venv
 ```
@@ -186,6 +187,7 @@ pip install -r requirements.txt
 
 ## 5. Crear archivo .env
 
+La api key la paso por privado solo para la prueba
 ```env
 OPENAI_API_KEY=tu_api_key
 ```
@@ -195,11 +197,11 @@ OPENAI_API_KEY=tu_api_key
 ## 6. Agregar PDFs
 
 Ubicar documentos dentro de:
-
+Paso el pdf que usé tambien al privado con el fin de llevar un mismo control y prueba
 ```
-data/pdfs/
+Crear las carpetas data/pdfs/
 ```
-
+Dentro de pdfs colocar el PDF👆
 ---
 
 ## 7. Procesar documentos
@@ -215,7 +217,7 @@ python ingest.py
 ```bash
 streamlit run app.py
 ```
-
+Por último cuando se inicia el ambiante se da enter o alguna tecla cuando esté ya montado en la URL.
 ---
 
 # Ejemplos de preguntas y respuestas
